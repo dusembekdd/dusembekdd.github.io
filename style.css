@@ -2,19 +2,20 @@
 	text-decoration: none;
 	margin: 0;
 	padding: 0;
+	
+
 }
 .hr{
 	margin-top: 10px;
 }
 body{
-font-family: 'Raleway', sans-serif; 	
+font-family: 'Raleway', sans-serif; 
 }
 .menu {
 	font-size: 50px;
 	background: black;
 	width: 100%;
 	height: 150px;
-	max-width: 100%;
 text-align: center;
 padding-top: 100px;
 }
@@ -35,7 +36,10 @@ a{
 	color: white;
 }
 .textt{
-	background-color: #87230E;
+	background-color: white;
+	display: flex;
+	flex-shrink: 1;
+	justify-content: center;
 }
 .text{
 	margin-left: 43%;
@@ -48,30 +52,27 @@ font-style: bold;
 	text-align: center;
 	color: white;
 	font-size: 70px;
-	animation: calvin 3s;
-	animation-fill-mode: forwards;
 }
 
 .content{
-	
-	height: 1000px;
+	height: 70em;
 max-width: 100%;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
-	animation: photo 3s;
-	animation-fill-mode: forwards;
+	justify-content: center;
 }
 .wiki{
 	max-width: 100%;
 	color: white;
-	display: grid	grid-auto-rows: minmax(100px, auto);
+	display: grid;
+		grid-auto-rows: minmax(100px, auto);
 	font-style: oblique ;
 	font-size: 30px;
 	margin-left: 50px;
 	margin-left:0px;
 padding-left:0;
 padding-top: 300px;	
+
 }
 .photo{
 	max-width: 100%;
@@ -99,36 +100,35 @@ grid-template-columns:repeat(3, 1fr);
 
 
 .contentVersace{
+		height: 70em;
 	max-width: 100%;
-	height: 1000px;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
-	animation: photoversace 3s;
-	animation-fill-mode: forwards;
+	justify-content: center;
 }
 
 .wikiVersace{
 	max-width: 100%;
-	margin-top: 150px;
+		color: black;
 	display: grid	grid-auto-rows: minmax(100px, auto);
 	font-style: oblique ;
 	font-size: 30px;
 	margin-left: 50px;
-padding-left: 20px;
-padding-top: 100px;	
+	margin-left:0px;
+padding-left:0;
+padding-top: 300px;	
 }
 .photoVersace{
-	max-width: 100%;
-	margin-left: 150px;
+	margin-right: 150px;
+	margin: 0px;
 margin-top: 150px;
-	border-bottom : 4px solid black;
-	border-top: 4px solid black;
+	border-bottom : 2px solid black;
+	border-top: 2px solid black;
 	padding: 20px;
 	height: 500px;
 display: grid;
 grid-gap: 20px;
-grid-template-columns:repeat(2, 1fr);
+grid-template-columns:repeat(3, 1fr);
 	grid-auto-rows: minmax(100px, auto);
 	}
 	.klein{
@@ -154,13 +154,11 @@ grid-template-columns:repeat(2, 1fr);
 }
 
 .contentChanel{
+		height: 70em;
 	max-width: 100%;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
-	animation: photoChanel 3s;
-	animation-fill-mode: forwards;
-	height: 1000px;
+	justify-content: center;
 }
 
 .wikiChanel{
@@ -202,33 +200,36 @@ grid-template-columns:repeat(3, 1fr);
 	font-size: 70px;
 }
 
+
 .contentZara{
-	height: 1000px;
+		height: 70em;
+	max-width: 100%;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
-	animation: photoZara 3s;
-	animation-fill-mode: forwards;
+	justify-content: center;
 }
+
 .wikiZara{
-	margin-top: 150px;
+	max-width: 100%;
+		color: black;
 	display: grid	grid-auto-rows: minmax(100px, auto);
 	font-style: oblique ;
 	font-size: 30px;
-	margin-right: 10px;
-padding-left: 20px;
-padding-top: 100px;	
+	margin-left: 50px;
+	margin-left:0px;
+padding-left:0;
+padding-top: 300px;	
 }
 .photoZara{
-	margin-left: 150px;
-	height:100px;
+	margin-right: 150px;
+	margin: 0px;
 margin-top: 150px;
-	border-bottom : 4px solid black;
-	border-top: 4px solid black;
+	border-bottom : 2px solid black;
+	border-top: 2px solid black;
 	padding: 20px;
 	height: 500px;
 display: grid;
-grid-gap: 10px;
+grid-gap: 20px;
 grid-template-columns:repeat(3, 1fr);
 	grid-auto-rows: minmax(100px, auto);
 	}
@@ -248,16 +249,16 @@ grid-template-columns:repeat(3, 1fr);
 }
 
 .contentDolce{
+		height: 70em;
+	max-width: 100%;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
-	animation: photoChanel 3s;
-	animation-fill-mode: forwards;
-	height: 1000px;
+	justify-content: center;
 }
 
 .wikiDolce{
-	color: white;
+	max-width: 100%;
+		color: white;
 	display: grid	grid-auto-rows: minmax(100px, auto);
 	font-style: oblique ;
 	font-size: 30px;
