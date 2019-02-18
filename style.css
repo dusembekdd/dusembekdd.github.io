@@ -58,26 +58,25 @@ font-style: bold;
 width: 100%;
 	height: 70em;
 max-width: 100%;
-	display: flex;
-	flex-direction: row;
+	display: grid;
+	grid-template-columns: minmax(auto, auto) repeat(2, auto);
 	justify-content: center;
+
 }
 .wiki{
-	overflow: hidden;
+
 	max-width: 100%;
-	color: white;
-	display: grid;
-		grid-auto-rows: minmax(100px, auto);
+		color: white;
+	display: grid	grid-auto-rows: minmax(100px, auto) repeat(2, auto);
 	font-style: oblique ;
 	font-size: 30px;
 	margin-left: 50px;
 	margin-left:0px;
 padding-left:0;
 padding-top: 300px;	
-
 }
 .photo{
-	overflow: hidden;
+
 	max-width: 100%;
 	margin-right: 150px;
 margin-top: 150px;
@@ -97,25 +96,25 @@ grid-template-columns:repeat(3, 1fr);
 	font-style: bold;
      color: black;
 	font-size: 70px;
-	animation: levis 3s;
-	animation-fill-mode: forwards;
 }
 
 
 .contentVersace{
+	display: grid;
+grid-template-columns: minmax(auto, auto) repeat(2, auto);
+	justify-content: center;
 	width: 100%;
 		height: 70em;
 	max-width: 100%;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
+
 }
 
 .wikiVersace{
-	overflow: hidden;
+
 	max-width: 100%;
 		color: black;
-	display: grid	grid-auto-rows: minmax(100px, auto);
+	display: grid	;
+	grid-auto-rows: minmax(100px, auto);
 	font-style: oblique ;
 	font-size: 30px;
 	margin-left: 50px;
@@ -124,7 +123,6 @@ padding-left:0;
 padding-top: 300px;	
 }
 .photoVersace{
-	overflow: hidden;
 	margin-right: 150px;
 	margin: 0px;
 margin-top: 150px;
@@ -160,19 +158,20 @@ grid-template-columns:repeat(3, 1fr);
 }
 
 .contentChanel{
+	display: grid;
+grid-template-columns: minmax(auto, auto) repeat(2, auto);
+	justify-content: center;
 	width: 100%;
 		height: 70em;
 	max-width: 100%;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
+
 }
 
 .wikiChanel{
-	overflow: hidden;
+
 	max-width: 100%;
 		color: white;
-	display: grid	grid-auto-rows: minmax(100px, auto);
+	display: grid	grid-auto-rows: minmax(100px, auto) repeat(2, auto);
 	font-style: oblique ;
 	font-size: 30px;
 	margin-left: 50px;
@@ -181,7 +180,7 @@ padding-left:0;
 padding-top: 300px;	
 }
 .photoChanel{
-	overflow: hidden;
+
 	margin-right: 150px;
 	margin: 0px;
 margin-top: 150px;
@@ -211,20 +210,20 @@ grid-template-columns:repeat(3, 1fr);
 
 
 .contentZara{
+	display: grid;
+	grid-template-columns: minmax(auto, auto) repeat(2, auto);
+	justify-content: center;
 	width: 100%;
 		height: 70em;
 	max-width: 100%;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
 }
 
 .wikiZara{
-	overflow: hidden;
+
 	max-width: 100%;
 		color: black;
 	display: grid	grid-auto-rows: minmax(100px, auto);
-	font-style: oblique ;
+	font-style: oblique ; 
 	font-size: 30px;
 	margin-left: 50px;
 	margin-left:0px;
@@ -232,7 +231,7 @@ padding-left:0;
 padding-top: 300px;	
 }
 .photoZara{
-	overflow: hidden;
+
 	margin-right: 150px;
 	margin: 0px;
 margin-top: 150px;
@@ -261,16 +260,17 @@ grid-template-columns:repeat(3, 1fr);
 }
 
 .contentDolce{
+	display: grid;
+grid-template-columns: minmax(auto, auto) repeat(2, auto);
+	justify-content: center;
 	width: 100%;
 		height: 70em;
 	max-width: 100%;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
+
 }
 
 .wikiDolce{
-	overflow: hidden;
+
 	max-width: 100%;
 		color: white;
 	display: grid	grid-auto-rows: minmax(100px, auto);
@@ -282,7 +282,7 @@ padding-left:0;
 padding-top: 300px;	
 }
 .photoDolce{
-	overflow: hidden;
+
 	margin-right: 150px;
 	margin: 0px;
 margin-top: 150px;
