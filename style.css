@@ -1,0 +1,325 @@
+*{
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	
+
+}
+.hr{
+	margin-top: 10px;
+}
+body{
+font-family: 'Raleway', sans-serif; 
+}
+.menu {
+	font-size: 50px;
+	background: black;
+	width: 100%;
+	height: 150px;
+text-align: center;
+padding-top: 100px;
+}
+.menu a:hover{
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+	animation: hover 0.5s;
+}
+@keyframes hover{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+a{
+	color: white;
+}
+.textt{
+	background-color: white;
+	display: flex;
+	flex-shrink: 1;
+	justify-content: center;
+}
+.text{
+	margin-left: 43%;
+	margin-right: 50%;
+color: black;
+font-size: 117px;
+font-style: bold;
+}
+.ck{
+	text-align: center;
+	color: white;
+	font-size: 70px;
+}
+
+.content{
+width: 100%;
+	height: 70em;
+max-width: 100%;
+	display: grid;
+	grid-template-columns: minmax(auto, auto) repeat(2, auto);
+	justify-content: center;
+
+}
+.wiki{
+
+	max-width: 100%;
+		color: white;
+	display: grid	grid-auto-rows: minmax(100px, auto) repeat(2, auto);
+	font-style: oblique ;
+	font-size: 30px;
+	margin-left: 50px;
+	margin-left:0px;
+padding-left:0;
+padding-top: 300px;	
+}
+.photo{
+
+	max-width: 100%;
+	margin-right: 150px;
+margin-top: 150px;
+	border-bottom : 2px solid white;
+	border-top: 2px solid white;
+	padding: 20px;
+	height: 500px;
+display: grid;
+grid-gap: 20px;
+grid-template-columns:repeat(3, 1fr);
+	grid-auto-rows: minmax(100px, auto);
+	}
+
+.Versace{
+	max-width: 100%;
+	text-align: center;
+	font-style: bold;
+     color: black;
+	font-size: 70px;
+}
+
+
+.contentVersace{
+	display: grid;
+grid-template-columns: minmax(auto, auto) repeat(2, auto);
+	justify-content: center;
+	width: 100%;
+		height: 70em;
+	max-width: 100%;
+
+}
+
+.wikiVersace{
+
+	max-width: 100%;
+		color: black;
+	display: grid	;
+	grid-auto-rows: minmax(100px, auto);
+	font-style: oblique ;
+	font-size: 30px;
+	margin-left: 50px;
+	margin-left:0px;
+padding-left:0;
+padding-top: 300px;	
+}
+.photoVersace{
+	margin-right: 150px;
+	margin: 0px;
+margin-top: 150px;
+	border-bottom : 2px solid black;
+	border-top: 2px solid black;
+	padding: 20px;
+	height: 500px;
+display: grid;
+grid-gap: 20px;
+grid-template-columns:repeat(3, 1fr);
+	grid-auto-rows: minmax(100px, auto);
+	}
+	.klein{
+	
+		max-width: 100%;
+		margin:0;
+		background-color:black; 
+		border-top: 3px solid white;
+		border-bottom: 3px solid white;
+	}
+		.versace{
+			max-width: 100%;
+			border-top: 3px solid black;
+		border-bottom: 5px solid black;
+	}
+.Chanel{
+	max-width: 100%;
+		text-align: center;
+	color: white;
+	font-size: 70px;
+	animation: Chanel 3s;
+	animation-fill-mode: forwards;
+}
+
+.contentChanel{
+	display: grid;
+grid-template-columns: minmax(auto, auto) repeat(2, auto);
+	justify-content: center;
+	width: 100%;
+		height: 70em;
+	max-width: 100%;
+
+}
+
+.wikiChanel{
+
+	max-width: 100%;
+		color: white;
+	display: grid	grid-auto-rows: minmax(100px, auto) repeat(2, auto);
+	font-style: oblique ;
+	font-size: 30px;
+	margin-left: 50px;
+	margin-left:0px;
+padding-left:0;
+padding-top: 300px;	
+}
+.photoChanel{
+
+	margin-right: 150px;
+	margin: 0px;
+margin-top: 150px;
+	border-bottom : 2px solid white;
+	border-top: 2px solid white;
+	padding: 20px;
+	height: 500px;
+display: grid;
+grid-gap: 20px;
+grid-template-columns:repeat(3, 1fr);
+	grid-auto-rows: minmax(100px, auto);
+	}
+		.chanel{
+	padding-bottom: 0;
+	margin-bottom: 0;
+		background-color:black; 
+		border-top: 3px solid white;
+		border-bottom: 3px solid white;
+	}
+
+	.Zara{
+		text-align: center;
+	font-style: bold;
+     color: black;
+	font-size: 70px;
+}
+
+
+.contentZara{
+	display: grid;
+	grid-template-columns: minmax(auto, auto) repeat(2, auto);
+	justify-content: center;
+	width: 100%;
+		height: 70em;
+	max-width: 100%;
+}
+
+.wikiZara{
+
+	max-width: 100%;
+		color: black;
+	display: grid	grid-auto-rows: minmax(100px, auto);
+	font-style: oblique ; 
+	font-size: 30px;
+	margin-left: 50px;
+	margin-left:0px;
+padding-left:0;
+padding-top: 300px;	
+}
+.photoZara{
+
+	margin-right: 150px;
+	margin: 0px;
+margin-top: 150px;
+	border-bottom : 2px solid black;
+	border-top: 2px solid black;
+	padding: 20px;
+	height: 500px;
+display: grid;
+grid-gap: 20px;
+grid-template-columns:repeat(3, 1fr);
+	grid-auto-rows: minmax(100px, auto);
+	}
+		.zara{
+			margin-top: 0;
+			border-top: 3px solid black;
+		border-bottom: 5px solid black;
+	}
+
+
+	.Dolce{
+			text-align: center;
+	color: white;
+	font-size: 70px;
+	animation: Dolce 3s;
+	animation-fill-mode: forwards;
+}
+
+.contentDolce{
+	display: grid;
+grid-template-columns: minmax(auto, auto) repeat(2, auto);
+	justify-content: center;
+	width: 100%;
+		height: 70em;
+	max-width: 100%;
+
+}
+
+.wikiDolce{
+
+	max-width: 100%;
+		color: white;
+	display: grid	grid-auto-rows: minmax(100px, auto);
+	font-style: oblique ;
+	font-size: 30px;
+	margin-left: 50px;
+	margin-left:0px;
+padding-left:0;
+padding-top: 300px;	
+}
+.photoDolce{
+
+	margin-right: 150px;
+	margin: 0px;
+margin-top: 150px;
+	border-bottom : 2px solid white;
+	border-top: 2px solid white;
+	padding: 20px;
+	height: 500px;
+display: grid;
+grid-gap: 20px;
+grid-template-columns:repeat(3, 1fr);
+	grid-auto-rows: minmax(100px, auto);
+	}
+		.dolce{
+	padding-bottom: 0;
+	margin-bottom: 0;
+		background-color:black; 
+		border-top: 3px solid white;
+		border-bottom: 3px solid white;
+	}
+	.contacts{
+		height: 100px;
+		width: 100%;
+		margin-top: 3px;
+		margin-bottom: 3px;
+		background-color: white;
+		border-top: 3px solid black;
+		border-bottom: 3px solid black;
+	}
+	.contacts{
+		text-align: center;
+		font-family: 'Raleway', sans-serif;
+
+	}
+	.contacts h1{
+		padding-top: 25px;
+		color: black;
+				font-style: bold;
+						font-size: 50px;
+
+	}
