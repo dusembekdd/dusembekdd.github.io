@@ -113,9 +113,8 @@ grid-template-columns: minmax(auto, auto) repeat(2, auto);
 
 	max-width: 100%;
 		color: black;
-	display: grid	;
-	grid-auto-rows: minmax(100px, auto);
-	font-style: oblique ;
+	display: grid	grid-auto-rows: minmax(100px, auto);
+	font-style: oblique ; 
 	font-size: 30px;
 	margin-left: 50px;
 	margin-left:0px;
